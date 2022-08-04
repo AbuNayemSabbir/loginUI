@@ -1,0 +1,204 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@android:color/black</item>
+        <item name="subtitleTextColor">@android:color/black</item>
+        <item name="actionMenuTextColor">@color/black</item>
+    </style>
+
+
+<!--    <style name="input_field_text_appearance_style" parent="@android:style/TextAppearance">-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--        <item name="android:textColorHint">@color/colorPrimary</item>-->
+<!--        <item name="colorAccent">@color/background_gray</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--        <item name="android:textAlignment">center</item>-->
+<!--        <item name="android:fontFamily">@font/roboto_black</item>-->
+<!--    </style>-->
+
+<!--    <style name="StyledTilEditTextTheme">-->
+<!--        <item name="android:imeOptions">actionNext</item>-->
+<!--        <item name="android:singleLine">true</item>-->
+<!--        <item name="colorControlNormal">@color/hint_color</item>-->
+<!--        <item name="colorControlActivated">@color/blue_text</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="StyledTilEditText">-->
+<!--        <item name="android:theme">@style/StyledTilEditTextTheme</item>-->
+<!--        <item name="android:paddingTop">4dp</item>-->
+<!--    </style>-->
+
+<!--    <style name="gradientRoundCornerButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:padding">0dp</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/ripple1</item>-->
+<!--    </style>-->
+
+<!--    <style name="gradientButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:padding">0dp</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/ripple_gradient</item>-->
+<!--    </style>-->
+
+<!--    <style name="OrangeRoundCornerButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:textColor">@color/blue2</item>-->
+<!--        <item name="android:padding">0dp</item>-->
+<!--        <item name="android:background">@drawable/ripple_orange</item>-->
+
+<!--    </style>-->
+
+<!--    <style name="gradientRoundCornerBorderButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/ripple_border_green</item>-->
+<!--    </style>-->
+
+<!--    <style name="blueRoundCornerBorderButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:textColor">@color/text_color_blue2</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/blue_round_corner_border_ripple</item>-->
+<!--    </style>-->
+
+<!--    <style name="whiteRoundCornerBorderButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/ripple_border_white</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="TextviewTitleNormal" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">23sp</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextviewTitleBold" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">23sp</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_bold</item>-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="TextviewTitleMedium" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">23sp</item>-->
+<!--        <item name="android:fontFamily">@font/gothammedium_0</item>-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="TextviewMediumNormal" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textColor">@color/ufl_blue</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextviewMediumBold" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_bold</item>-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextviewSmallNormal" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">13sp</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+
+
+<!--    <style name="EditText1" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/white_bg_round_corner</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textSize">@dimen/text_size_medium</item>-->
+<!--        <item name="android:textColorHint">@color/hint_color</item>-->
+<!--       <item name="android:paddingLeft">15dp</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="EditTextCard" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/cardlayout</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textSize">@dimen/text_size_medium</item>-->
+<!--        <item name="android:textColorHint">@color/hint_color</item>-->
+<!--        <item name="android:paddingLeft">16dp</item>-->
+<!--        <item name="android:paddingRight">16dp</item>-->
+
+<!--    </style>-->
+<!--    <style name="EditTextCardGray" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/gray_cardlayout</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textSize">@dimen/text_size_medium</item>-->
+<!--        <item name="android:textColorHint">@color/hint_color</item>-->
+<!--        <item name="android:paddingLeft">16dp</item>-->
+<!--        <item name="android:paddingRight">16dp</item>-->
+
+<!--    </style>-->
+<!--    <style name="MyGravity" parent="android:Theme.Material.Dialog"></style>-->
+
+
+<!--    <style name="BlueRoundCornerButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--        <item name="android:padding">0dp</item>-->
+<!--        <item name="android:background">@drawable/ufl_ripple_blue</item>-->
+
+<!--    </style>-->
+<!--    <style name="uflblueRoundCornerBorderButton" parent="TextAppearance.AppCompat.Button">-->
+<!--        <item name="android:textColor">@color/ufl_blue</item>-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">@dimen/bottom_button_height</item>-->
+<!--        <item name="android:background">@drawable/ufl_ripple_blue_corner</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="UflTextviewMediumNormal" parent="Widget.AppCompat.TextView">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:textSize">16sp</item>-->
+<!--        <item name="android:fontFamily">@font/gotham_book</item>-->
+<!--        <item name="android:textColor">@color/ufl_ash_color</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="CustomAlertDialog">-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--        <item name="android:background">@android:color/transparent</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--    </style>-->
+</resources>

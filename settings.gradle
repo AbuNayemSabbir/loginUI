@@ -1,0 +1,2 @@
+rootProject.name = "Logi Ui"
+include ':app'
